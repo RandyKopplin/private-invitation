@@ -24,12 +24,12 @@
     h1 { 
       color: #1a3c6e; 
       text-align:center; 
-      font-size: 2.8em;
+      font-size: 2.5em;
       margin-bottom: 10px;
     }
     .contact-info { 
       text-align:center; 
-      font-size:1.3em; 
+      font-size:1.2em; 
       margin-bottom: 30px;
       color: #1a3c6e;
     }
@@ -42,16 +42,17 @@
     .cta-button { 
       display:block; 
       width:100%; 
-      max-width:420px; 
+      max-width: 380px; 
       margin:35px auto; 
-      padding:20px; 
+      padding:18px 20px; 
       background:#1a3c6e; 
       color:white; 
       text-align:center; 
-      font-size:1.4em; 
+      font-size:1.25em; 
       text-decoration:none; 
       border-radius:8px;
       font-weight: bold;
+      box-shadow: 0 4px 8px rgba(26, 60, 110, 0.2);
     }
     .highlight { 
       background:#e6f0ff; 
@@ -70,6 +71,20 @@
       font-size:0.95em;
       border-top: 1px solid #eee;
       margin-top: 50px;
+    }
+
+    /* Mobile Responsiveness */
+    @media (max-width: 480px) {
+      h1 { font-size: 2.1em; }
+      .cta-button { 
+        max-width: 100%; 
+        font-size: 1.2em;
+        padding: 16px 20px;
+      }
+      .container {
+        margin: 20px 10px;
+        padding: 30px 15px;
+      }
     }
   </style>
 </head>
